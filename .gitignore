@@ -1,0 +1,17 @@
+# Secrets & credentials — never commit
+app/credentials.json
+app/token.json
+compteGmail.txt
+*.env
+
+# Local generated data
+app/email_classifications.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
