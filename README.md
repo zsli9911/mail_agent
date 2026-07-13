@@ -92,7 +92,9 @@ In the GUI:
 - **Add to Calendar** — create a calendar event from a summarized email.
 - **Auto (Agent)** — run the full agent workflow on selected emails (classify → act → persist).
 
-The right-hand panel shows to-do items (upcoming calendar events for the next 30 days).
+On startup the app authenticates with Gmail and auto-loads the INBOX; use the
+folder dropdown to switch between INBOX and TRASH. The right-hand panel shows
+to-do items (upcoming calendar events for the next 30 days).
 
 ---
 
